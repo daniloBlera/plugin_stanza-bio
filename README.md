@@ -15,7 +15,9 @@ import stanza
 stanza.download('en', package='craft')
 ```
 
-The other available biomedical and clinical models can be found here: [https://stanfordnlp.github.io/stanza/available_biomed_models.html][available-models]
+The other available biomedical and clinical models can be found here:
+
+[https://stanfordnlp.github.io/stanza/available_biomed_models.html][available-models]
 
 [stanza]: https://stanfordnlp.github.io/stanza/
 [stanza-bio]: https://stanfordnlp.github.io/stanza/biomed.html
