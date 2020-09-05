@@ -1,0 +1,50 @@
+{
+    "manifest_version": "1.0.1",
+    "name": "Stanza-bio",
+    "version": "2.0.0",
+    "keyname": "stanza-bio",
+    "description": "Stanza: A Python NLP Library for Many Human Languages",
+    "site": "https://stanfordnlp.github.io/stanza/biomed.html",
+    "author": "RodriguesFAS",
+    "category": "nlp",
+    "license": "Apache2",
+    "analysis": [{
+            "lexical": [{
+                    "name": "Tokenize",
+                    "keyname": "tokenize",
+                    "description": "https://stanfordnlp.github.io/stanza/tokenize.html"
+                },
+                {
+                    "name": "MWT",
+                    "keyname": "mwt",
+                    "description": "https://stanfordnlp.github.io/stanza/mwt.html"
+                },
+                {
+                    "name": "POSTags",
+                    "keyname": "pos",
+                    "description": "https://stanfordnlp.github.io/stanza/pos.html"
+                },
+                {
+                    "name": "Lemma",
+                    "keyname": "lemma",
+                    "description": "https://stanfordnlp.github.io/stanza/lemma.html"
+                },
+                {
+                    "name": "NER",
+                    "keyname": "ner",
+                    "description": "https://stanfordnlp.github.io/stanza/ner.html"
+                }
+            ]
+        },
+        {
+            "syntatic": [{
+                "name": "Depparse",
+                "keyname": "depparse",
+                "description": "https://stanfordnlp.github.io/stanza/depparse.html"
+            }]
+        },
+        {
+            "semantic": []
+        }
+    ]
+}
